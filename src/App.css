@@ -1,0 +1,19 @@
+/* App.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  background-image: url("./image.png"); /* path to your image */
+  background-size: cover;        /* make image cover entire area */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* keeps it fixed on scroll */
+  min-height: 100vh;             /* full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

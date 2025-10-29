@@ -1,0 +1,106 @@
+/* Timer.css */
+
+.timer-container {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+ background: rgba(255, 255, 255, 0.15);
+backdrop-filter: blur(10px);
+background-color: #3a4a5b;
+color: #f5f5f5;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  transition: 0.3s ease all;
+}
+
+.timer-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+}
+
+.timer-container h1 {
+  font-size: 1.6rem;
+  margin: 20px 0;
+  color: #eff5f5;
+}
+
+.timer-container h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #ffcc70;
+}
+
+.timer-container label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.timer-container input[type="text"],
+.timer-container input[type="datetime-local"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #2c2c3e;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.2s;
+  
+}
+
+.timer-container input[type="text"]:focus,
+.timer-container input[type="datetime-local"]:focus {
+  background: #3b3b52;
+  border: 1px solid #00e0ff;
+}
+
+.timer-container button {
+  background: #00e0ff;
+  border: none;
+  color: #1e1e2f;
+  padding: 10px 18px;
+  margin: 8px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.timer-container button:hover {
+  background: #00bcd4;
+  transform: scale(1.05);
+}
+
+.timer-container button:active {
+  transform: scale(0.97);
+}
+
+.timer-container h3 {
+  margin-top: 25px;
+  font-size: 1.1rem;
+  color: #ffcc70;
+}
+
+.timer-container div[style] {
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .timer-container {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .timer-container button {
+    width: 100%;
+  }
+}
