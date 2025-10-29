@@ -1,16 +1,84 @@
-# React + Vite
+Countdown Timer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React.js-based Countdown Timer developed as part of my CodeClause Internship.
+This app allows users to set countdowns for events, choose custom dates and times, or quickly start preset timers with real-time updates and an alert sound when time’s up.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Set a custom event name
+✅ Choose specific date & time for countdown
+✅ Quick presets — 5 min, 10 min, 30 min, 1 hour, 1 day
+✅ Real-time countdown display
+✅ Alert sound when timer ends
+✅ Start ⏯️ | Stop ⏹️ | Reset 🔄 functionality
+✅ Responsive & minimal UI
 
-## React Compiler
+🧠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React.js (with Hooks: useState, useEffect, useRef)
 
-## Expanding the ESLint configuration
+Vite (for fast development setup)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CSS for styling
+
+JavaScript (ES6+)
+
+📸 Preview
+
+
+(Add your app screenshot here – you can upload it in your repo’s Issues or use GitHub upload tool.)
+
+⚙️ How to Run Locally
+
+Clone the repository
+
+git clone https://github.com/mayankatulkar26/CodeClauseInternship_CountdownTimer.git
+
+
+Navigate to the project folder
+
+cd CodeClauseInternship_CountdownTimer
+
+
+Install dependencies
+
+npm install
+
+
+Start the app
+
+npm run dev
+
+
+Open your browser and visit
+👉 http://localhost:5173
+
+🧩 Folder Structure
+CodeClauseInternship_CountdownTimer/
+│
+├── src/
+│   ├── Timer.jsx          # Main component
+│   ├── Timer.css          # Styling for the timer
+│   
+│
+├── public/
+│   └── alert.mp3          # Audio alert file
+│
+├── package.json
+├── vite.config.js
+└── README.md
+
+🔔 Future Improvements
+
+⏰ Add multiple timers
+
+🌙 Add dark/light mode toggle
+
+📱 Better mobile-friendly UI
+
+📦 Save events in local storage
+
+🙌 Acknowledgement
+
+This project was developed as part of my Web Development Internship at CodeClause.
+Special thanks to the CodeClause team for the learning opportunity and guidance.
